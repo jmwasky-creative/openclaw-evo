@@ -1,0 +1,41 @@
+# .gitignore for OpenClaw Workspace
+
+# 敏感信息
+*.key
+*.secret
+*.token
+openclaw.json
+openclaw.json.bak*
+
+# Agent session data
+sessions/
+*.jsonl
+*.json.bak
+
+# Temporary files
+temp/
+*.tmp
+*.log
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large generated files
+*.sqlite
+*.db
+
+# 但保留重要的进化文件
+!.PCEC.md
+!.CAPABILITY_TREE.md
+!memory/
+!MEMORY.md
