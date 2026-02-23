@@ -34,8 +34,10 @@ Thumbs.db
 *.sqlite
 *.db
 
-# 但保留重要的进化文件
+# 记忆文件 (本地使用，不提交)
+memory/
+MEMORY.md
+
+# 保留重要的进化文件
 !.PCEC.md
 !.CAPABILITY_TREE.md
-!memory/
-!MEMORY.md
